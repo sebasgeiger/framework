@@ -1,9 +1,10 @@
 <script>
-    import 'global.css';
+    import '../global.css';
   </script>
   <nav>
     <a href="/">Home</a>
     <a href="/about">About</a>
+    <a href="/posts">Posts</a>
   </nav>
   <main>
     <slot />
