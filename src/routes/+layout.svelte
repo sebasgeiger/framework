@@ -1,7 +1,7 @@
 <script>
     import '../global.css';
   </script>
-  <nav>
+  <nav class="main-nav">
     <a href="/">Home</a>
     <a href="/about">About</a>
     <a href="/posts">Posts</a>
@@ -18,9 +18,13 @@
       display: flex;
       justify-content: space-evenly;
       padding: .5em;
-      background-color:honeydew;
-      color: seagreen;
+      background-color:silver;
+      color: black;
     }
+    nav {
+    font-weight: 900;
+    text-transform: uppercase;
+  }
     main {
       grid-row: 2;
     }
