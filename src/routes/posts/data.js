@@ -1,15 +1,20 @@
 export const posts = [
     { 
       slug: "1",
-      title: "NHL Standings by League",
-      content: "Shows up to date standings for the 2022-2023 NHL season",
+      title: "Metropolitan Division",
+      content: "NHL teams in the Metropolitan Division",
     },{
       slug: "2",
-      title: "NHL Standings by Conference",
-      content: "Shows up to date standings for the 2022-2023 NHL season",
+      title: "Atlantic Division",
+      content: "NHL teams in the Atlantic Division",
     },{
       slug: "3",
-      title: "NHL Standings by Division",
-      content: "Shows up to date standings for the 2022-2023 NHL season",
+      title: "Central Division",
+      content: "NHL teams in the Central Division",
+    },
+    {
+      slug: "4",
+      title: "Pacific Division",
+      content: "NHL teams in the Pacific Division",
     },
   ];

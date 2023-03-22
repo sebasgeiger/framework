@@ -1,6 +1,13 @@
-//import { posts } from '../data.js';
+import { posts } from '../data.js';
 
-export async function load({ fetch }) {
+export function load({ params }) {
+  const post = posts.find((post) => post.slug === params.slug);
+
+  return {
+    post
+  }
+} 
+/* export async function load({ fetch }) {
 
   const url = 'https://statsapi.web.nhl.com/api/v1/teams?fields=teams,id,name,venue,firstYearOfPlay,division';
 
@@ -13,8 +20,8 @@ export async function load({ fetch }) {
   return { 
     nhlteams
   }
-}
-
+} 
+ */
 
 // https://statsapi.web.nhl.com/api/v1/teams
 
