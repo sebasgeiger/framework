@@ -1,6 +1,5 @@
 <script>
   export let data;
-  
 </script>
 
 <div class="container">

@@ -5,6 +5,7 @@
     <a href="/">Home</a>
     <a href="/about">About</a>
     <a href="/posts">Posts</a>
+    <a href="/test">Test</a>
   </nav>
   <main>
     <slot />
