@@ -5,8 +5,12 @@
 
 <article>
     {#each nhlteams as { teams,id,name,venue,firstYearOfPlay,division }}
-    <h1>{teams},{id},{name}</h1>
-    <p>{venue},{firstYearOfPlay},{division}</p>
+    <h1>{teams},</h1>
+    <p>{id}</p>
+    <p>{name}</p>
+    <p>{venue}</p>
+    <p>{firstYearOfPlay}</p>
+    <p>{division}</p>
     {/each}
 </article>
 
