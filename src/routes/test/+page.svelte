@@ -1,24 +1,32 @@
 <script>
     export let data;
     const {nhlteams} = data;
-</script>
+    const nhldiv = nhlteams.filter(team => team.division.id === 18)   
+    </script>
 
 <article>
-    {#each nhlteams as { teams,id,name,venue,firstYearOfPlay,division }}
-    <h1>{teams},</h1>
-    <p>{id}</p>
-    <p>{name}</p>
-    <p>{venue}</p>
-    <p>{firstYearOfPlay}</p>
-    <p>{division}</p>
+    {#each nhldiv as { name, firstYearOfPlay, venue}}  
+        <div class="card">
+            <h1>{name}</h1>
+                <p><b>First Year:</b> {firstYearOfPlay}</p>
+                <p><b>Arena:</b> {venue.name}</p>
+                <p><b>City:</b> {venue.city}</p>
+            </div>
     {/each}
 </article>
 
 <style>
-article{
-    padding: 2em;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 2em; 
-    } 
+    article {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: auto;
+        grid-gap: 1rem;
+    }
+    .card {
+        border: 2px solid #e7e7e7;
+        border-radius: 4px;
+        border-color: lightblue;
+        padding: .5rem;
+        text-align: center;
+    }
 </style> 
