@@ -8,8 +8,3 @@ export function load() {
     }))
   };
 } 
-
-
-// https://statsapi.web.nhl.com/api/v1/teams
-
-// https://github.com/erunion/sport-api-specifications/blob/master/nhl/nhl.yaml
