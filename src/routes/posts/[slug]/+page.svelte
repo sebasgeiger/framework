@@ -27,6 +27,6 @@
         border-radius: 4px;
         padding: .5rem;
         text-align: center;
-        background-color: rgb(206, 238, 246);
+        background-image: url(/ice3.jpg);
     }
 </style> 

@@ -16,6 +16,7 @@
         <a href="/posts/{slug}">{title}</a>
       {/each}
     </nav>
+    <img src="nhl.png" alt="logo">
   </aside>
 </div>
 
@@ -23,14 +24,14 @@
   aside {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
   }
   nav {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
     display: flex;
   }
   nav a {
@@ -38,6 +39,6 @@
   }
   h2 {
     width: 100%;
-    text-align: left;
+    text-align: center;
   }
 </style>

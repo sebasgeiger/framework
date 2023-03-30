@@ -34,7 +34,7 @@ article {
 }
 aside {
   margin-top: 3rem;
-  flex: 1 0 32%;
+  /* flex: 1 0 32%; */
 }
 a, a:visited {
   text-decoration: none;

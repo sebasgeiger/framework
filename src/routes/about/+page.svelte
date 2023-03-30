@@ -3,3 +3,14 @@
     This blog allowed me to use SvelteKit to display information about NHL teams and learn a bit more about the NHL.
     I hope that you learn as much as I do or even more! Enjoy!
 </p>
+<img src="../net.jpg" alt="hockey net">
+
+<style>
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        padding-bottom: 1rem;
+    }
+</style>
