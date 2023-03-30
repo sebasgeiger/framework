@@ -5,8 +5,8 @@
 <div class="container">
   <article>
     <h1>Blog Posts</h1>
-    <p>Welcome to the Posts page of my blog, dedicated to all things NHL! Here, you'll find a chronological listing of all my blog posts, organized by date. From the newest to the oldest, you'll be able to browse through a comprehensive collection of articles on various topics related to the NHL.</p>
-    <p>The content of my posts varies widely.</p>  
+    <p>Welcome to the Posts page of my blog, These four blogs show every team in the NHL, split up by division. There are four divisions: Metropolitan, Alantic, Central, and Pacific.</p>
+    <p>The NHL is split into two conferences with two divisions each. The Metropolitan and the Alantic divisions are in the Eastern Conference and the Central and the Pacific divisions are in the Western Conference.</p>  
     <p>Overall, my blog posts are designed to inform, entertain, and educate readers about the NHL.</p>
   </article>
   <aside>
