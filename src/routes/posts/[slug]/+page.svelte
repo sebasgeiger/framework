@@ -1,7 +1,7 @@
 <script>
     export let data;
     const {nhlteams} = data;
-    const nhldiv = nhlteams.filter(team => team.division.id === 18)   
+    const nhldiv = nhlteams.filter(team => team.division.name == data.post.title)   
     </script>
 
 <article>
@@ -31,10 +31,10 @@
         grid-gap: 1rem;
     }
     .card {
-        border: 2px solid #e7e7e7;
+        border: 2px solid black;
         border-radius: 4px;
-        border-color: lightblue;
         padding: .5rem;
         text-align: center;
+        background-color: rgb(206, 238, 246);
     }
 </style> 

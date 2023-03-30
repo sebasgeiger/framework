@@ -1,4 +1,6 @@
-export async function load({ fetch }) {  
+import { posts } from '../data.js';
+
+export async function load({ fetch,params }) {  
 
   const url = 'https://statsapi.web.nhl.com/api/v1/teams';
 
@@ -8,8 +10,10 @@ export async function load({ fetch }) {
 
   const nhlteams = teamsRes.teams;
 
+  const post = posts.find((post) => post.slug === params.slug);
   return { 
-    nhlteams
+    nhlteams,
+    post
   }
 } 
 
