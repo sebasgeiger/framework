@@ -19,6 +19,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"gh-pages": "^5.0.0",
 		"simpledotcss": "^2.1.2"
 	}
 }
